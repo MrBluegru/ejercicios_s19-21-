@@ -1,0 +1,113 @@
+.jokesDiv {
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #2b2b2b41 0%, #0000005f 100%),
+    url("../../img/mk1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.cardJoke {
+  margin: 1rem;
+  display: flex;
+  height: 350px;
+  width: 500px;
+  background-color: rgba(244, 242, 242, 0.196);
+  box-shadow: 0 0 4px black;
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.jokeText {
+  font-size: 1.5rem;
+  margin: 3rem 0;
+  font-weight: 650;
+  font-style: oblique;
+}
+
+.divBtnAndDataJ {
+  position: absolute;
+  bottom: 10px;
+}
+
+.btnsJK {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnNewJ {
+  background-color: yellow;
+  font-weight: 900;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.btnNewJ:hover {
+  color: yellow;
+  background-color: black;
+}
+
+.likeBtn {
+  color: aliceblue;
+  background-color: rgb(94, 187, 54);
+  font-weight: 900;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.likeBtn:hover {
+  color: rgb(94, 187, 54);
+  background-color: white;
+}
+
+.disLikeBtn {
+  color: aliceblue;
+  background-color: rgb(187, 54, 54);
+  font-weight: 900;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.disLikeBtn:hover {
+  color: rgb(187, 54, 54);
+  background-color: white;
+}
+
+.likesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.likesData {
+  margin: 1rem;
+  background-color: rgb(94, 187, 54);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.disLikesData {
+  margin: 1rem;
+  background-color: rgb(187, 54, 54);
+  font-weight: 700;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
